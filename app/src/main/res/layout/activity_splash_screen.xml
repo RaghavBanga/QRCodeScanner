@@ -17,16 +17,40 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:layout_marginLeft="20dp"
+    android:layout_marginLeft="10dp"
     android:text="Scan QR "/>
     <Button
         android:id="@+id/textscan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="100dp"
         android:text="Scan Text"/>
+
 </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+    <Button
+        android:id="@+id/Speech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="Speech to text"/>
+    <Button
+        android:id="@+id/TextToSpeech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:text="Text to Speech"/>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/previewImage"
+        android:visibility="gone"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
